@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #555151;
+}
+
+header {
+    background: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #193553;
+    display: flex;
+    
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button.active {
+    background: #050e17;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tab-content {
+    display: none;
+}
+
+.ejercicio {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    
+    
+}
+
+.input-group label,
+.resultado {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.alerta {
+   
+    padding: 5px;
+    color: rgb(212, 152, 41);
+}
